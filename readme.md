@@ -69,16 +69,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:** -rood-
+**Je startniveau:** -Blauw-
 
-**Je focus:** -responsive-
+**Je focus:** -Surface laag-
 
-**Je opdracht:** -https://paperpillar.com-
+**Je opdracht:** -https://www.ubereats.com/nl-
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/Schermafbeelding1.png" width="375px" alt="Homepage">
+<img src="images/Schermafbeelding1.jpg" width="375px" alt="Homepage">
+<img src="images/Schermafbeelding2.jpg" width="375px" alt="Homepage">
+<img src="images/Schermafbeelding3.jpg" width="375px" alt="Homepage">
+<img src="images/Schermafbeelding4.jpg" width="375px" alt="Homepage">
+<img src="images/Schermafbeelding5.jpg" width="375px" alt="Homepage">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/Schermafbeelding2.png" width="375px" alt="Contact form">
+<img src="images/Schermafbeelding6.jpg" width="375px" alt="Homepage">
