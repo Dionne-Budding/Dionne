@@ -38,11 +38,24 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Alle dingen in html zetten ging best oke, ik tijfel nog wel vaak of iets een article is of hoe ik sommige dingen moet noemen.
+Met CSS vond ik het wel leuk om dingen uit te proberen, maar bijvoorbeeld een slider was wel heel moeilijk. De opdracht die we moesten
+maken voor school heeft bij daar wel bij geholpen. Met Javascript ben ik nog niet begonnen.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+De eerste pagine: Homepage
+<img src="images/screen1.png" alt="">
+<img src="images/screen2.png" alt="">
+<img src="images/screen3.png" alt="">
+<img src="images/screen4.png" alt="">
+<img src="images/screen5.png" alt="">
+
+De tweede pagina: Uber for Business
+<img src="images/screen6.png" alt="">
+<img src="images/screen7.png" alt="">
+<img src="images/screen8.png" alt="">
+<img src="images/screen9.png" alt="">
 
 ### Agenda voor meeting
 
@@ -50,8 +63,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 | student 1      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Javascript     | en dit             | en ik dit    | en dan ik dat    |
+| Kaart          | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
@@ -64,7 +77,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
 
-
+<img src="images/Breakdown.jpg" width="375px" alt="breakdownschets">
 
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-

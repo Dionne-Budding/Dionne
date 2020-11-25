@@ -1,19 +1,294 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="author" content="jouw naam">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Uber Eats</title>
+
+  <link href="styles/style.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-	<h1>Howdy</h1>
-	<script src="scripts/script.js"></script>
+  <header>
+    <!-- navigatie balk -->
+    <nav>
+      <ul>
+        <li>Menu</li>
+        <li><img src="images/logo.svg" alt="Logo"></li>
+        <li><button>Inloggen</button></li>
+      </ul>
+    </nav>
+    <!-- landingspagina header -->
+    <section>
+      <h1>Je favoriete eten, bezorgd via Uber</h1>
+      <ul>
+        <li> <input type="search" placeholder="Bezorgadres invoeren" name="search"> </li>
+        <li><button>Gerechten zoeken</button></li>
+      </ul>
+    </section>
+
+    <img src="images/achtergrond1.png" alt="Homepage">
+
+  </header>
+
+  <main>
+    <!-- Slider eten bij mij in de buurt -->
+
+    <section>
+      <h2>Eten bij mij in de buurt</h2>
+
+      <ul>
+        <li>
+          <figure>
+            <img src="images/pizza.jpg" alt="pizza">
+            <figcaption>Pizza</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="images/sushi.jpg" alt="sushi">
+            <figcaption>Sushi</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="images/thai.jpg" alt="thai">
+            <figcaption>Thai</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="images/desserts.jpg" alt="toetjes">
+            <figcaption>Desserts</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Dowload de app section -->
+    <section>
+      <ul>
+        <li> <img src="images/download.svg" alt="app"> </li>
+        <li>
+          <h2>Er is nog veel meer leuks in de iPhone-app</h2>
+        </li>
+      </ul>
+      <button>App downloaden</button>
+    </section>
+
+    <!-- Maaltijdbezorging in Amsterdam slider -->
+    <section>
+      <h2>Maaltijdbezorging in Amsterdam</h2>
+      <ul>
+        <li>
+          <article>
+            <img src="images/mac.jpg" alt="bezorgen">
+            <h3>MacDonal's - Amsterdam</h3>
+            <p>1.99 bezorgkosten - 25-35 min</p>
+            <p>4.3</p>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <img src="images/papa.jpg" alt="pizza">
+            <h3>Papa John's - Amsterdam</h3>
+            <p>1.99 bezorgkosten - 25-35 min</p>
+            <p>4.3</p>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <img src="images/doner.jpg" alt="pizza">
+            <h3>XL Doner Kebab - Amsterdam</h3>
+            <p>1.99 bezorgkosten - 25-35 min</p>
+            <p>4.3</p>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <img src="images/delifrance.jpg" alt="pizza">
+            <h3>Delifrance - Amsterdam</h3>
+            <p>1.99 bezorgkosten - 25-35 min</p>
+            <p>4.3</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Zakelijk account toevoegen, Aanmelden restaurant en Aanmelden als bezorger -->
+    <section>
+      <ul>
+        <li>
+          <article>
+            <a href="detail.html"><img src="images/zakelijk.svg" alt="pizza"></a>
+            <h2>Zorg dat je medewerkers goed eten</h2>
+            <a>Maak een zakelijk account aan</a>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <img src="images/restaurant.svg" alt="pizza">
+            <h2>Met jouw restaurant thuisbezorgen</h2>
+            <a>Jouw restaurant toevoegen</a>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <img src="images/bezorg.svg" alt="pizza">
+            <h2>Bezorg via Uber Eats</h2>
+            <a>Aanmelden als bezorger</a>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Nieuw bij Uber Eats slider -->
+    <section>
+      <h2>Nieuw bij Uber Eats</h2>
+
+      <ul>
+        <li>
+          <article>
+            <img src="images/delifrance.jpg" alt="pizza">
+            <h3>Delifrance - Amsterdam</h3>
+            <p>1.99 bezorgkosten - 25-35 min</p>
+            <p>4.3</p>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <img src="images/doner.jpg" alt="pizza">
+            <h3>XL Doner Kebab - Amsterdam</h3>
+            <p>1.99 bezorgkosten - 25-35 min</p>
+            <p>4.3</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Steden waar Uber Eats bezorgd met kaart -->
+    <section>
+      <h2>Steden bij jou in de buurt</h2>
+      <div class="mapouter">
+        <div class="gmap_canvas"><iframe width="380" height="430" id="gmap_canvas" src="https://maps.google.com/maps?q=amsterdam&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+            href="https://putlocker-is.org"></a></div>
+      </div>
+
+      <ul>
+        <li>Amsterdam</li>
+        <li>Zuiden van Nederland</li>
+      </ul>
+
+      <a href="#">Alle ruim 500 steden bekijken</a>
+    </section>
+
+    <!-- Pizza-bezorging in Amsterdam slider -->
+    <section>
+      <h2>Pizza-bezorging in Amsterdam</h2>
+
+      <ul>
+        <li>
+          <article>
+            <img src="images/papa.jpg" alt="pizza">
+            <h3>Papa John's - Amsterdam</h3>
+            <p>1.99 bezorgkosten - 25-35 min</p>
+            <p>4.3</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <img src="images/papa.jpg" alt="pizza">
+            <h3>Papa John's - Amsterdam</h3>
+            <p>1.99 bezorgkosten - 25-35 min</p>
+            <p>4.3</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <img src="images/papa.jpg" alt="pizza">
+            <h3>Papa John's - Amsterdam</h3>
+            <p>1.99 bezorgkosten - 25-35 min</p>
+            <p>4.3</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Alle landen waar Uber Eats bezorgd -->
+    <section>
+      <h2>Landen met Uber Eats</h2>
+      <ul>
+        <li>Verenigde Staten</li>
+        <li>Spanje</li>
+        <li>Brazillie</li>
+        <li>Mexico</li>
+        <li>Frankrijk</li>
+        <li>Japan</li>
+        <li>Canada</li>
+        <li>Australie</li>
+        <li>Polen</li>
+        <li>Verenigd Koninkrijk</li>
+        <li>Portugal</li>
+        <li>Italie</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <img src="images/logo2.svg" alt="Homepage">
+
+    <ul>
+      <li class="download"><img src="images/apple.svg" alt="Homepage"></li>
+      <li class="download"><img src="images/google.png" width="140px" alt="Homepage"></li>
+    </ul>
+
+    <ul>
+      <li>Over Uber Eats</li>
+      <li>Onze blog</li>
+      <li>Maak een zakelijk account aan</li>
+      <li>Je restaurant toevoegen</li>
+      <li>Aanmelden als bezorger</li>
+    </ul>
+
+    <ul>
+      <li>Hulp krijgen</li>
+      <li>Veelgestelde vragen</li>
+      <li>Alle steden weergeven</li>
+      <li>Alle landen bekijken</li>
+      <li>Restaurants bij mij in de buurt</li>
+    </ul>
+
+    <ul>
+      <li class="icon"><i class="fa fa-facebook-official"></i></li>
+      <li class="icon"><i class="fa fa-twitter"></i></li>
+      <li class="icon"><i class="fa fa-instagram"></i></li>
+    </ul>
+
+    <ul>
+      <li>Privacybeleid</li>
+      <li>Voorwaarden</li>
+      <li>prijzen</li>
+      <li>Copyright 2020 Uber technologies Inc.</li>
+    </ul>
+  </footer>
+
+  <script src="scripts/script.js"></script>
 </body>
-	
+
 </html>
