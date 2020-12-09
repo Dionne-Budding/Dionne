@@ -65,6 +65,28 @@ nav ul button {
   font-size: 1.2em;
 }
 
+#klik img{
+  width: 1.8em;
+  height: 1.8em;
+}
+
+#menu{
+  display: none;
+}
+
+#menu.change{
+  display: block;
+  transform: none;
+  width: 15em;
+  background: white;
+  height: 100vh;
+}
+
+#menu.change img{
+  height: 5em;
+  width: 5em;
+}
+
 /* Section van zoekveld */
 header section ul {
   display: flex;
@@ -483,14 +505,15 @@ blockquote {
   min-height: 400px;
   margin: 25px 0;
 }
+
 .tab {
   float: left;
 }
 
 .tab label {
-  background: #eee;
+  /* background: #eee; */
   padding: 10px;
-  border: 1px solid #ccc;
+  /* border: 1px solid black; */
   margin-left: -1px;
   position: relative;
   left: 1px;
@@ -508,27 +531,46 @@ blockquote {
   right: 0;
   bottom: 0;
   padding: 20px;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   /* overflow: hidden; */
 }
 
-.content > * {
-  opacity: 0;
+.maaltijd .tabs img {
+  width: 23em;
+  height: 13em;
+  padding-bottom: 1em;
+}
+
+.maaltijd .tabs h3 {
+  padding-bottom: 1em;
+}
+
+.content>* {
+  /* opacity: 0; */
   transform: translateX(-100%);
   transition: all 0.6s ease;
 }
 
-[type="radio"]:checked ~ label {
-  background: white;
-  border-bottom: 1px solid white;
+[type="radio"]:checked~label {
+  border-bottom: 1px solid black;
   z-index: 2;
 }
 
-[type="radio"]:checked ~ label ~ .content {
+[type="radio"]:checked~label~.content {
   z-index: 1;
 }
 
-[type="radio"]:checked ~ label ~ .content > * {
+[type="radio"]:checked~label~.content>* {
   opacity: 1;
   transform: translateX(0);
+}
+
+.maaltijd a {
+  border-radius: 50%;
+  padding: 1em;
+  background-color: #EEEEEE;
+  color: black;
+  text-decoration: none;
+  padding: 8px 16px;
+  font-size: 2em;
 }
